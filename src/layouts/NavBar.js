@@ -16,12 +16,12 @@ const NavBar = () => {
       </li>
       <li>
         <NavLink
-          to="/appintment"
+          to="/appointment"
           className={({ isActive }) =>
             isActive ? "text-secondary" : undefined
           }
         >
-          Appintment
+          Appointment
         </NavLink>
       </li>
       <li>

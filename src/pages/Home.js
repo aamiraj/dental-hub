@@ -113,7 +113,7 @@ const Home = () => {
       <div className="my-12">
         <div className="text-center">
           <h1 className="text-2xl text-primary font-bold">Our Services</h1>
-          <h2 className="text-lg text-accent font-bold">Services We Provid</h2>
+          <h2 className="text-lg text-accent font-bold">Services We Provide</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {services.map((service, i) => (
@@ -145,7 +145,7 @@ const Home = () => {
         </div>
         <Carousel
           autoPlay={true}
-          showThumbs={true}
+          showThumbs={false}
           centerMode={true}
           centerSlidePercentage={100}
           autoFocus={true}
